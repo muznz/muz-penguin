@@ -4,8 +4,6 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
-
 st.write("""
 # Penguin Prediction
 This site predicts the probability of a Penguin species based on features known about a particular Penguin. 
